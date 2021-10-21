@@ -25,12 +25,23 @@ int main()
     // cout << "selesai";
 
     //Komputasional (Absolut)
-    int x;
-    cin >> x;
-    if(x<0){
-        x = x * -1;
+    // int x;
+    // cin >> x;
+    // if(x<0){
+    //     x = x * -1;
+    // }
+    // cout << x;
+
+    // Genap lebih dari 2
+    int a;
+
+    cout << "Input angka : " ; cin >> a;
+    if ((a%2==0) && (a>2))
+    {
+       cout << a << endl;
     }
-    cout << x;
+    cout << "selesai";
+    
 
     return 0;
 }
