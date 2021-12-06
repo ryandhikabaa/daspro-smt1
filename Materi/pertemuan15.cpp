@@ -45,6 +45,7 @@ int main()
     // int j = 1;
     // for (int i = 1; i<=5 ; i++, j=i*i)
     // {
+    //     cout << "nilai i :" << i << "nilai :" << j << endl;
     //     cout << j << endl;
     // }
 
@@ -53,23 +54,27 @@ int main()
     // int j = 1;
     // for (i = 5; i <= 5 && i >= 0;  i--, j+=i)
     // {
+    //     // cout << "nilai i :" << i << " nilai :" << j << endl;
     //     cout << j << endl;
     // }
 
     //8) 1 3 7 13 21 ==> +2|+4|+6|+8
-    int i = 0;
-    int j = 1;
-    for (i; i < 5; i++, j = j + 2 * i)
-    {
-        cout << j << endl;
-    }
+    // int i = 0;
+    // int j = 1;  
+    // for (i; i < 5; i++, j = j + 2 * i)
+    // {
+    //     // cout << "nilai i :" << i << " nilai j:" << j << endl;
+    //     cout << j << endl;
+    // }
 
     //9) 1 4 8 13 19 ==> +3|+4|+5|+6
-    // int i, j;
-    // for (int i = 1; j<5 ; j++, i=j+i+2)
+    // int i, j = 0;
+    // for (int i = 1; j<5 ; j++, i = j + i + 2)
     // {
     //     cout << i << endl;
     // }
+    
+    
 
     return 0;
 }
