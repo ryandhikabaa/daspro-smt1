@@ -40,22 +40,22 @@ int main()
 
 
     //Pola Piramida Output * ==> Kecil ke besar
-    // * * * * *
-    // * * * *
-    // * * *
-    // * *
-    // *
-    int outer, inner, iBaris;
-    cout << "Masukkan jumlah baris:  ";
-    cin >> iBaris;
-    for (outer = 1; outer <= iBaris; outer++)
-    {
-        for (inner = 1; inner <= outer; inner++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
+    // *    
+    // **   
+    // ***  
+    // **** 
+    // *****
+    // int outer, inner, iBaris;
+    // cout << "Masukkan jumlah baris:  ";
+    // cin >> iBaris;
+    // for (outer = 1; outer <= iBaris; outer++)
+    // {
+    //     for (inner = 1; inner <= outer; inner++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
     
     
 
@@ -66,17 +66,17 @@ int main()
     // * * *
     // * *
     // *
-    // int outer, inner, iBaris;
-    // cout << "Masukkan jumlah baris:  ";
-    // cin >> iBaris;
-    // for (outer = iBaris; outer >= 1; outer--)
-    // {
-    //     for (inner = 1; inner <= outer; inner++)
-    //     {
-    //         cout << "* ";
-    //     }
-    //     cout << "\n";
-    // }
+    int outer, inner, iBaris;
+    cout << "Masukkan jumlah baris:  ";
+    cin >> iBaris;
+    for (outer = iBaris; outer >= 1; outer--)
+    {
+        for (inner = 1; inner <= outer; inner++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
 
     //Pola Piramida output angka
     // 1
