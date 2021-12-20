@@ -1,0 +1,1 @@
+int arrIndex[inputBanyakDeret];
